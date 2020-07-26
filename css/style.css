@@ -1,0 +1,152 @@
+nav ul li a {
+  color: black;
+  font-size: larger;
+  margin-left: 30px;
+  font-family: "Anton", sans-serif;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  color: black;
+  padding-top: 7px;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  color: black;
+}
+p {
+  font-family: "Mulish", sans-serif;
+  color: black;
+}
+
+.bg-yellow {
+  background-color: #ffff00;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+span {
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}
+
+.content-buttom {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(191, 196, 196);
+  color: white;
+}
+
+.text-img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-img h4 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.text-img h6 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.text-img p {
+  font-size: 20px;
+}
+
+@media (min-width: 200px) {
+  nav ul li a {
+    font-size: 12px;
+  }
+  .text-img {
+    top: 30%;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  .text-img h4 {
+    font-size: 12px;
+  }
+  .text-img h6 {
+    font-size: 10px;
+  }
+  .text-img p {
+    display: none;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .content {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  .text-img p {
+    display: inline-block;
+    font-size: 14px;
+    background-color: white;
+  }
+  .text-img {
+    top: 35%;
+  }
+  .text-img h4 {
+    font-size: 18px;
+  }
+  .text-img h6 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-img {
+    top: 40%;
+  }
+  .text-img h4 {
+    font-size: 20px;
+  }
+  .text-img h6 {
+    font-size: 16px;
+  }
+
+  .text-img p {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
